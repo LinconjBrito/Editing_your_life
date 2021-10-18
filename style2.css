@@ -33,12 +33,26 @@ body{
 .inp{
     box-sizing: border-box;
     width: 90%;
-    margin-top: px;
+    margin-top: 5px;
     bottom: 0;
     margin-left: 15px;
     height: 40px;
     border-radius: 3px;
    
+}
+.send{
+    box-sizing: border-box;
+    justify-content: center;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    margin: 25px auto;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    background-color: rgb(59, 212, 79);
+    color: white;
+    border: rgb(71, 30, 255) 1px solid;
+    
 }
 
 .inp:focus {
@@ -48,7 +62,7 @@ body{
 }
 
 .form{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 label{
