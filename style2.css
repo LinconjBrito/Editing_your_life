@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+
+    background-image: url(./assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+
+}
+
+
+.container{
+    
+    width: 400px;
+    height: 500px;
+    background-image: url(./assets/game-console-6603120_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+.inp{
+    box-sizing: border-box;
+    width: 90%;
+    margin-top: px;
+    bottom: 0;
+    margin-left: 15px;
+    height: 40px;
+    border-radius: 3px;
+   
+}
+
+.inp:focus {
+    outline: none !important;
+    border:2px solid rgb(20, 62, 197);
+    box-shadow: 0 0 5px #719ECE;
+}
+
+.form{
+    margin-top: 30px;
+}
+
+label{
+    
+    color: white;
+    font-family: 'Jockey One' , sans-serif;
+    margin-left: 15px;
+    display: inline-block;
+    margin-top: 15px;
+}
